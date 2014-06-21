@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="EscapeOfKinokoForest.Views.Stage001.P_4_2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EscapeOfKinokoForest.Views.Stage001"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:scene="using:EscapeOfKinokoForest.Views.Stage001"
+    xmlns:UI="using:Microsoft.Advertising.WinRT.UI" 
+    mc:Ignorable="d"
+    d:DesignHeight="1080"
+    d:DesignWidth="1920">
+
+    <Grid Background="#FF604C3D" >
+        <MediaElement x:Name="me" IsLooping="True" Source="Assets/Sounds/game.mp3" />
+        <MediaElement x:Name="me2" />
+        <Viewbox>
+            <Canvas Width="1920" Height="1080" >
+                <Image x:Name="Wall001" Source="ms-appx:///Assets/Stage001/point/point4-2.jpg" Width="1920" Height="930" VerticalAlignment="Top" />
+                <TextBlock HorizontalAlignment="Left" Margin="60,954,0,0" TextWrapping="Wrap" Text="クローバーのお礼にヒントを教えてくれた。" VerticalAlignment="Top" Height="110" Width="1785" FontFamily="Meiryo UI" FontSize="72"/>
+
+                <scene:Popup x:Name="Popup" Width="900" Height="770" Canvas.Top="30" Canvas.Left="510" Visibility="Collapsed"/>
+                <Image x:Name="backBtn_Copy" Source="ms-appx:///Assets/Stage001/btnBack.png" Tapped="backBtn_Tapped" Height="87" Canvas.Left="1669" Canvas.Top="966" Width="200"/>
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</Page>

@@ -1,0 +1,62 @@
+﻿<Page xmlns:UI1="using:Microsoft.Advertising.Mobile.UI"  xmlns:UI="using:Microsoft.Advertising.WinRT.UI" 
+    x:Class="EscapeOfKinokoForest.Views.Stage001.stage001"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EscapeOfKinokoForest"
+    xmlns:scene="using:EscapeOfKinokoForest.Views.Stage001"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:flag="using:EscapeOfKinokoForest.Models"
+    xmlns:converter="using:EscapeOfKinokoForest.Models.Converters"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <converter:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" isReverse="False" />
+        <converter:BoolToVisibilityConverter x:Key="BoolToVisibilityConverterReverse" isReverse="True" />
+    </Page.Resources>
+
+
+    <Grid Background="#FF604C3D" >
+        <MediaElement x:Name="me2" />
+
+        <Viewbox>
+            <Canvas x:Name="gameStage" Width="1920" Height="830" Background="#FFEDE8D9"
+                    ManipulationMode="TranslateX"
+                    ManipulationStarted="gameStage_ManipulationStarted"
+                    ManipulationDelta="gameStage_ManipulationDelta"
+                    >
+
+                <TextBlock x:Name="name" Text="なまえ" Canvas.Left="28" Canvas.Top="-101" Height="77" Width="643" FontFamily="Global User Interface" FontSize="72"/>
+                <Canvas>
+                    <Canvas.Clip>
+                        <RectangleGeometry Rect="0, 0, 1920, 830"/>
+                    </Canvas.Clip>
+
+                    <scene:scene001 x:Name="Wall001" Width="1920" Height="830" />
+                    <scene:scene002 x:Name="Wall002" Width="1920" Height="830" Canvas.Left="1919" />
+                    <scene:scene003 x:Name="Wall003" Width="1920" Height="830" Canvas.Left="3838" />
+                    <scene:scene004 x:Name="Wall004" Width="1920" Height="830" Canvas.Left="5757" />
+                    <scene:scene001 x:Name="Wall001_2" Width="1920" Height="830" Canvas.Left="7676" />
+                    <scene:scene004 x:Name="Wall004_2" Width="1920" Height="830" Canvas.Left="-1919"/>
+                    <scene:scene003 x:Name="Wall003_2" Width="1920" Height="830" Canvas.Left="-3839" />
+                </Canvas>
+
+                <scene:Popup x:Name="Popup" Width="900" Height="770" Canvas.Top="30" Canvas.Left="510" Visibility="Collapsed"/>
+
+                <!--アイテム-->
+
+                <TextBlock x:Name="message" HorizontalAlignment="Left" TextWrapping="Wrap" Text="何かありそうなキノコの家だ" VerticalAlignment="Top" Height="110" Width="1129" FontFamily="Meiryo UI" FontSize="40" Canvas.Left="75" Canvas.Top="844"/>
+                <Image x:Name="aboutItemButton" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="183" Canvas.Left="1030" Canvas.Top="844" Source="ms-appx:///Assets/Stage001/gameBtnaboutItem.png" Tapped="aboutItemButton_Tapped"/>
+
+                <Image x:Name="item1Image" Height="100" Canvas.Left="1790" Canvas.Top="844" Width="100" Source="ms-appx:///Assets/Stage001/item/gameItem01_none.png" Tapped="itemTapped"/>
+                <Image x:Name="item2Image" Height="100" Canvas.Left="1680" Canvas.Top="844" Width="100" Source="ms-appx:///Assets/Stage001/item/gameItem02_none.png" Tapped="itemTapped"/>
+                <Image x:Name="item3Image" Height="100" Canvas.Left="1570" Canvas.Top="844" Width="100" Source="ms-appx:///Assets/Stage001/item/gameItem03_none.png" Tapped="itemTapped"/>
+                <Image x:Name="item4Image" Height="100" Canvas.Left="1460" Canvas.Top="844" Width="100" Source="ms-appx:///Assets/Stage001/item/gameItem04_none.png" Tapped="itemTapped"/>
+                <Image x:Name="item5Image" Height="100" Canvas.Left="1350" Canvas.Top="844" Width="100" Source="ms-appx:///Assets/Stage001/item/gameItem05_none.png" Tapped="itemTapped"/>
+                <Image x:Name="item6Image" Height="100" Canvas.Left="1240" Canvas.Top="844" Width="100" Source="ms-appx:///Assets/Stage001/item/gameItem06_none.png" Tapped="itemTapped"/>
+
+            </Canvas>
+        </Viewbox>
+        <Frame x:Name="eventFrame" Visibility="Collapsed"/>
+    </Grid>
+</Page>

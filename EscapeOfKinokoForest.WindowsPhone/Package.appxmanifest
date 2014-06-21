@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  <Identity Name="sample" Publisher="sample" Version="1.1.0.4" />
+  <mp:PhoneIdentity PhoneProductId="" PhonePublisherId="" />
+  <Properties>
+    <DisplayName>きのこの森からの脱出</DisplayName>
+    <PublisherDisplayName>coelacanth soft</PublisherDisplayName>
+    <Logo>Assets\StoreLogoPhone.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="EscapeOfKinokoForest.WindowsPhone.App">
+      <m3:VisualElements DisplayName="きのこの森からの脱出" Square150x150Logo="Assets\LogoPhone.png" Square44x44Logo="Assets\SmallLogoPhone.png" Description="EscapeOfKinokoForest.WindowsPhone" ForegroundText="light" BackgroundColor="transparent">
+        <m3:DefaultTile Wide310x150Logo="Assets\WideLogoPhone.png" Square71x71Logo="Assets\Square71x71Logo.png">
+        </m3:DefaultTile>
+        <m3:InitialRotationPreference>
+          <m3:Rotation Preference="landscape" />
+          <m3:Rotation Preference="landscapeFlipped" />
+        </m3:InitialRotationPreference>
+        <m3:SplashScreen Image="Assets\SplashScreenPhone.png" />
+      </m3:VisualElements>
+    </Application>
+  </Applications>
+</Package>

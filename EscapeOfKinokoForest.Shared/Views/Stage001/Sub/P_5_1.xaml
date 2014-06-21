@@ -1,0 +1,47 @@
+﻿<Page
+        xmlns:UI="using:Microsoft.Advertising.WinRT.UI" 
+
+    x:Class="EscapeOfKinokoForest.Views.Stage001.P_5_1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EscapeOfKinokoForest.Views.Stage001"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:scene="using:EscapeOfKinokoForest.Views.Stage001"
+    mc:Ignorable="d"
+    d:DesignHeight="1080"
+    d:DesignWidth="1920">
+
+    <Grid Background="#FF604C3D" >
+        <MediaElement x:Name="me" IsLooping="True" Source="Assets/Sounds/game.mp3" />
+        <MediaElement x:Name="me2" />
+        <Viewbox>
+            <Canvas Width="1920" Height="1080" x:Name="mainStage">
+                <Image x:Name="Wall001" Source="ms-appx:///Assets/Stage001/point/point5-1.jpg" Width="1920" Height="930" VerticalAlignment="Top" />
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="110" Width="1566" FontFamily="Meiryo UI" FontSize="72" Canvas.Left="60" Canvas.Top="954">
+                	<Run Text="何を押したらいいかな？"/>
+                	<LineBreak/>
+                	<Run/>
+                </TextBlock>
+
+                <!--キー-->
+                <Image x:Name="key1" Width="230" Height="230" Source="ms-appx:///Assets/Stage001/point/point5_parts/point5_Btn1.png" Canvas.Left="326" Canvas.Top="82" Tapped="key_Tapped"/>
+                <Image x:Name="key2" Width="230" Height="230" Source="ms-appx:///Assets/Stage001/point/point5_parts/point5_Btn2.png" Canvas.Left="576" Canvas.Top="82" Tapped="key_Tapped"/>
+                <Image x:Name="key3" Width="230" Height="230" Source="ms-appx:///Assets/Stage001/point/point5_parts/point5_Btn3.png" Canvas.Left="825" Canvas.Top="82" Tapped="key_Tapped"/>
+                <Image x:Name="key4" Width="230" Height="230" Source="ms-appx:///Assets/Stage001/point/point5_parts/point5_Btn4.png" Canvas.Left="326" Canvas.Top="331" Tapped="key_Tapped"/>
+                <Image x:Name="key5" Width="230" Height="230" Source="ms-appx:///Assets/Stage001/point/point5_parts/point5_Btn5.png" Canvas.Left="576" Canvas.Top="331" Tapped="key_Tapped"/>
+                <Image x:Name="key6" Width="230" Height="230" Source="ms-appx:///Assets/Stage001/point/point5_parts/point5_Btn6.png" Canvas.Left="825" Canvas.Top="331" Tapped="key_Tapped"/>
+                <Image x:Name="key7" Width="230" Height="230" Source="ms-appx:///Assets/Stage001/point/point5_parts/point5_Btn7.png" Canvas.Left="326" Canvas.Top="585" Tapped="key_Tapped"/>
+                <Image x:Name="key8" Width="230" Height="230" Source="ms-appx:///Assets/Stage001/point/point5_parts/point5_Btn8.png" Canvas.Left="576" Canvas.Top="585" Tapped="key_Tapped"/>
+                <Image x:Name="key9" Width="230" Height="230" Source="ms-appx:///Assets/Stage001/point/point5_parts/point5_Btn9.png" Canvas.Left="825" Canvas.Top="585" Tapped="key_Tapped"/>
+
+                <Image x:Name="keyEnter" Width="450" Height="200" Source="ms-appx:///Assets/Stage001/point/point5_parts/point5_BtnEnter.png" Canvas.Left="1134" Canvas.Top="600" Tapped="key_Tapped"/>
+                <Image x:Name="keyClear" Width="450" Height="200" Source="ms-appx:///Assets/Stage001/point/point5_parts/point5_BtnClear.png" Canvas.Left="1134" Canvas.Top="351" Tapped="key_Tapped"/>
+                <Image x:Name="backBtn" Source="ms-appx:///Assets/Stage001/btnBack.png" Tapped="backBtn_Tapped" Margin="1669,966,51,27"/>
+
+                <scene:Popup x:Name="Popup" Width="900" Height="770" Canvas.Top="30" Canvas.Left="510" Visibility="Collapsed"/>
+
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</Page>

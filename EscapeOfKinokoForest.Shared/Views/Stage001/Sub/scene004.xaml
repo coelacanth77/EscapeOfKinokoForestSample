@@ -1,0 +1,20 @@
+﻿<UserControl
+    x:Class="EscapeOfKinokoForest.Views.Stage001.scene004"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EscapeOfKinokoForest.Views.Stage001"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="830"
+    d:DesignWidth="1920">
+
+    <Grid Width="1920" Height="830">
+        <Image x:Name="Wall001" Source="ms-appx:///Assets/Stage001/game04.jpg" Width="1920" Height="830" />
+
+        <Rectangle x:Name="point_4" HorizontalAlignment="Left" Height="532" Margin="1430,288,0,0" VerticalAlignment="Top" Width="256" Fill="#00000000" Tapped="point_4_Tapped"/>
+        <Rectangle x:Name="point_5_1" HorizontalAlignment="Left" Height="469" Margin="167,351,0,0" VerticalAlignment="Top" Width="256" Fill="#00000000" Tapped="point_5_1_Tapped"/>
+        <Rectangle x:Name="kirin" HorizontalAlignment="Left" Height="810" Margin="1003,10,0,0" VerticalAlignment="Top" Width="399" Fill="#00000000" Tapped="kirin_Tapped" />
+
+    </Grid>
+</UserControl>

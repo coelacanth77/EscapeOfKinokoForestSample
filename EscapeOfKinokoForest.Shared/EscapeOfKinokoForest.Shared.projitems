@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>d6845589-2a8f-4ce1-9be4-19a0e5073452</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>EscapeOfKinokoForest</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\badgeLogo.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\bg.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\GoalPage\rankingBtn.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\GoalPage\rankingNum01.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\GoalPage\rankingNum02.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\GoalPage\rankingNum03.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\GoalPage\rankingNum04.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\GoalPage\rankingNum05.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\GoalPage\rankingNum06.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\GoalPage\rankingNum07.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\GoalPage\rankingNum08.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\GoalPage\rankingNum09.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\GoalPage\rankingNum10.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\GoalPage\rankingTitle.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\InputName\nameBoard.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\InputName\nameBtn.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\InputName\nameBtnBack.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\InputName\nameBtnInput.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\InputName\nameBtnNext.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Logo.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\nameBtn.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\PreGame\explanationBtn.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\PreGame\explanationTxt1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\PreGame\explanationTxt2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SmallLogo.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sounds\false.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sounds\game.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sounds\getitem.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sounds\goal.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sounds\opening.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sounds\point.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sounds\success.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SplashScreen.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\btnBack.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\btnNext.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\game01.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\game01_settled.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\game02.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\game02_settled.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\game03.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\game03_settled.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\game04.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\gameBtnaboutItem.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\gameItem01Bg.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\gameItem02Bg.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\goalImg.gif" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem01.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem01Bg.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem01_active.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem01_none.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem02.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem02Bg.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem02_active.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem02_none.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem03.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem03Bg.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem03_active.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem03_none.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem04.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem04Bg.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem04_active.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem04_none.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem05.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem05Bg.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem05_active.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem05_none.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem06.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem06Bg.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem06_active.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\item\gameItem06_none.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\game03.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point1-1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point2-1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point3-1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point3-2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point4-1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point4-2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5-1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_Btn1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_Btn1_active.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_Btn2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_Btn2_active.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_Btn3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_Btn3_active.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_Btn4.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_Btn4_active.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_Btn5.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_Btn5_active.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_Btn6.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_Btn6_active.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_Btn7.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_Btn7_active.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_Btn8.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_Btn8_active.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_Btn9.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_Btn9_active.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_BtnClear.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_BtnClear_on.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_BtnEnter.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stage001\point\point5_parts\point5_BtnEnter_on.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\StoreLogo.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\TopPage\startBtn.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\TopPage\startLogo.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\WideLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="$(MSBuildThisFileDirectory)Assets\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)Common\StandardStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\Frame\GoalPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\Frame\PreGamePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\Frame\TopPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\MainFrame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\Popup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\P_1_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\P_2_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\P_3_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\P_3_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\P_4_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\P_4_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\P_5_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\scene001.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\scene002.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\scene003.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\scene004.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Common\UserData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Converters\BoolToVisibilityConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\FlagData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ResultData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ScreenManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Frame\GoalPage.xaml.cs">
+      <DependentUpon>GoalPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Frame\PreGamePage.xaml.cs">
+      <DependentUpon>PreGamePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Frame\TopPage.xaml.cs">
+      <DependentUpon>TopPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MainFrame.xaml.cs">
+      <DependentUpon>MainFrame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\Popup.xaml.cs">
+      <DependentUpon>Popup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\P_1_1.xaml.cs">
+      <DependentUpon>P_1_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\P_2_1.xaml.cs">
+      <DependentUpon>P_2_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\P_3_1.xaml.cs">
+      <DependentUpon>P_3_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\P_3_2.xaml.cs">
+      <DependentUpon>P_3_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\P_4_1.xaml.cs">
+      <DependentUpon>P_4_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\P_4_2.xaml.cs">
+      <DependentUpon>P_4_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\P_5_1.xaml.cs">
+      <DependentUpon>P_5_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\scene001.xaml.cs">
+      <DependentUpon>scene001.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\scene002.xaml.cs">
+      <DependentUpon>scene002.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\scene003.xaml.cs">
+      <DependentUpon>scene003.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Stage001\Sub\scene004.xaml.cs">
+      <DependentUpon>scene004.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>
